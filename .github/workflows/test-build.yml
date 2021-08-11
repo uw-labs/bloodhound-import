@@ -1,18 +1,14 @@
-name: release
+name: build
 
 on:
-  push:
-    branches:
-      - "main"
-    tags:
-      - "v*"
   pull_request:
+  push:
 
 permissions:
   contents: write
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -33,10 +29,9 @@ jobs:
           version: latest
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@v2
-        if: success() && startsWith(github.ref, 'refs/tags/')
         with:
           distribution: goreleaser
           version: latest
-          args: release --rm-dist
+          args: release --snapshot --skip-publish --rm-dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
