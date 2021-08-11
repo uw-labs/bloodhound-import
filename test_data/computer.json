@@ -1,0 +1,118 @@
+{
+    "computers": [
+        {
+            "Properties": {
+                "haslaps": false,
+                "highvalue": false,
+                "name": "PRIMARY.TESTLAB.LOCAL",
+                "domain": "TESTLAB.LOCAL",
+                "objectid": "S-1-5-21-3130019616-2776909439-2417379446-1001",
+                "distinguishedname": "CN=PRIMARY,OU=Domain Controllers,DC=testlab,DC=local",
+                "description": null,
+                "enabled": true,
+                "unconstraineddelegation": true,
+                "serviceprincipalnames": [
+                    "Dfsr-12F9A27C-BF97-4787-9364-D31B6C55EB04/PRIMARY.testlab.local",
+                    "ldap/PRIMARY.testlab.local/ForestDnsZones.testlab.local",
+                    "ldap/PRIMARY.testlab.local/DomainDnsZones.testlab.local",
+                    "DNS/PRIMARY.testlab.local",
+                    "GC/PRIMARY.testlab.local/testlab.local",
+                    "RestrictedKrbHost/PRIMARY.testlab.local",
+                    "RestrictedKrbHost/PRIMARY",
+                    "RPC/a052f434-0629-458a-bd51-48118140ae3c._msdcs.testlab.local",
+                    "HOST/PRIMARY/TESTLAB",
+                    "HOST/PRIMARY.testlab.local/TESTLAB",
+                    "HOST/PRIMARY",
+                    "HOST/PRIMARY.testlab.local",
+                    "HOST/PRIMARY.testlab.local/testlab.local",
+                    "E3514235-4B06-11D1-AB04-00C04FC2DCD2/a052f434-0629-458a-bd51-48118140ae3c/testlab.local",
+                    "ldap/PRIMARY/TESTLAB",
+                    "ldap/a052f434-0629-458a-bd51-48118140ae3c._msdcs.testlab.local",
+                    "ldap/PRIMARY.testlab.local/TESTLAB",
+                    "ldap/PRIMARY",
+                    "ldap/PRIMARY.testlab.local",
+                    "ldap/PRIMARY.testlab.local/testlab.local"
+                ],
+                "lastlogontimestamp": 1583951963,
+                "pwdlastset": 1583951963,
+                "operatingsystem": "Windows Server 2012 R2 Standard Evaluation"
+            },
+            "AllowedToDelegate": [],
+            "AllowedToAct": [],
+            "PrimaryGroupSid": "S-1-5-21-3130019616-2776909439-2417379446-516",
+            "Sessions": [
+                {
+                    "UserId": "S-1-5-21-3130019616-2776909439-2417379446-500",
+                    "ComputerId": "S-1-5-21-3130019616-2776909439-2417379446-1001"
+                }
+            ],
+            "LocalAdmins": [
+                {
+                    "MemberId": "S-1-5-21-3130019616-2776909439-2417379446-500",
+                    "MemberType": "User"
+                },
+                {
+                    "MemberId": "S-1-5-21-3130019616-2776909439-2417379446-519",
+                    "MemberType": "Group"
+                },
+                {
+                    "MemberId": "S-1-5-21-3130019616-2776909439-2417379446-512",
+                    "MemberType": "Group"
+                }
+            ],
+            "RemoteDesktopUsers": [],
+            "DcomUsers": [],
+            "PSRemoteUsers": [],
+            "ObjectIdentifier": "S-1-5-21-3130019616-2776909439-2417379446-1001",
+            "Aces": [
+                {
+                    "PrincipalSID": "S-1-5-21-3130019616-2776909439-2417379446-512",
+                    "PrincipalType": "Group",
+                    "RightName": "Owner",
+                    "AceType": "",
+                    "IsInherited": false
+                },
+                {
+                    "PrincipalSID": "S-1-5-21-3130019616-2776909439-2417379446-512",
+                    "PrincipalType": "Group",
+                    "RightName": "GenericAll",
+                    "AceType": "",
+                    "IsInherited": false
+                },
+                {
+                    "PrincipalSID": "S-1-5-21-3130019616-2776909439-2417379446-519",
+                    "PrincipalType": "Group",
+                    "RightName": "GenericAll",
+                    "AceType": "",
+                    "IsInherited": true
+                },
+                {
+                    "PrincipalSID": "TESTLAB.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group",
+                    "RightName": "WriteDacl",
+                    "AceType": "",
+                    "IsInherited": true
+                },
+                {
+                    "PrincipalSID": "TESTLAB.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group",
+                    "RightName": "WriteOwner",
+                    "AceType": "",
+                    "IsInherited": true
+                },
+                {
+                    "PrincipalSID": "TESTLAB.LOCAL-S-1-5-32-544",
+                    "PrincipalType": "Group",
+                    "RightName": "GenericWrite",
+                    "AceType": "",
+                    "IsInherited": true
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "type": "computers",
+        "count": 1,
+        "version": 3
+    }
+}
